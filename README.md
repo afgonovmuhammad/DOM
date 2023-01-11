@@ -2,14 +2,21 @@
 [![N|Solid](dom-in-js.jpg)
 
 ```
-                                      Table of Contents
+                                             Table of Contents
 ```
 ****
 ****
-#### Dom
+#### 1 Dom
 
-#### Introduction to browser events
+#### 2 Introduction to browser events
 
-#### Forms, controls
+#### 3 Forms, controls
 ****
 ****
+## DOM
+[![N|Solid](unnamed.webp)
+***
+[![N|Solid](document-object.avif)
+
+
+
