@@ -90,13 +90,13 @@ function validateForm() {
 ***
 >Тасдиқи формати HTML метавонад тавассути браузер ба таври худкор анҷом дода шавад.
 Агар майдони форма (fname) холӣ бошад, requiredатрибут пешниҳоди ин формаро пешгирӣ мекунад:
-.
-```
+
+
 <form action="/action_page.php" method="post">
   <input type="text" name="fname" required>
   <input type="submit" value="Submit">
 </form>
-```
+
 ****
 ****
 
