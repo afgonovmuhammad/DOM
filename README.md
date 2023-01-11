@@ -74,7 +74,7 @@ document.getElementById('content').style.color = 'red';
 
 ****
 ***
-[![N|Solid](images.png)
+<!-- [![N|Solid](images.png) -->
 
 ### Forms, controls
 
