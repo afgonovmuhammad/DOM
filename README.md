@@ -2,7 +2,7 @@
 [![N|Solid](dom-in-js.jpg)
 
 ```
-                                             Table of Contents
+                                         Table of Contents
 ```
 ****
 ****
