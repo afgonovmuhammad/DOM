@@ -1,2 +1,2 @@
 # DOM
-[![N|Solid](featured.jpg)
+[![N|Solid](dom-in-js.jpg)
