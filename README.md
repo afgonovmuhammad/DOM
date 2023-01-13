@@ -106,7 +106,7 @@ function validateForm() {
 унсури нав (гиреҳи Элементи холӣ) бо номи барчасп.
 > 1) createElement(elementName): Элементи html эҷод мекунад, ки тегаш аст
 ҳамчун параметр гузашт. Элементи сохташударо бармегардонад
-2) createTextNode(text): гиреҳи матниро эҷод ва бармегардонад. Матни гиреҳ аст
+> 2) createTextNode(text): гиреҳи матниро эҷод ва бармегардонад. Матни гиреҳ аст
 ҳамчун параметр гузашт.
 
 > 1)let div = document.querySelector("div")
@@ -114,6 +114,39 @@ let but = document.createElement("button");
 but.innerHTML = "BUTTON";
 div.appendChild(but)
 [![N|Solid](Screenshot%20A.png)
+
+***
+***
+## The createElement() Methods
+>let paragraph1 = document.createElement("p");
+paragraph1.innerHTML = "This is a paragraph 1";
+.
+let paragraph2 = document.createElement("p");
+paragraph2.innerHTML = "This is a paragraph 2";
+.
+let addElements = document.getElementById("myDiv")
+addElements.appendChild(paragraph1)
+addElements.appendChild(paragraph2)
+[![N|Solid](Screenshot%20_2.png)
+***
+***
+
+## HTML DOM Element appendChild()
+>Усул appendChild()гиреҳро (элементро) ҳамчун фарзанди охирини элемент замима мекунад.
+
+##### appendChild()
+>HTML
+```
+<div id="myDiv">
+        <h2> I am myDiv</h2>
+</div>
+ ```
+> JS
+let para = document.createElement("p")
+let node = document.createTextNode("This is a paragraph.");
+para.appendChild(node);
+document.getElementById("myDiv").appendChild(para)
+[![N|Solid](Screenshot%203.png)
 
 
 
