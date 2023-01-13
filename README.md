@@ -104,7 +104,7 @@ function validateForm() {
 ## createElement()
 > Усули JavaScript document.createElement() ба шумо имкон медиҳад, ки а эҷод ва баргардонед
 унсури нав (гиреҳи Элементи холӣ) бо номи барчасп.
-1) createElement(elementName): Элементи html эҷод мекунад, ки тегаш аст
+> 1) createElement(elementName): Элементи html эҷод мекунад, ки тегаш аст
 ҳамчун параметр гузашт. Элементи сохташударо бармегардонад
 2) createTextNode(text): гиреҳи матниро эҷод ва бармегардонад. Матни гиреҳ аст
 ҳамчун параметр гузашт.
@@ -113,7 +113,7 @@ function validateForm() {
 let but = document.createElement("button");
 but.innerHTML = "BUTTON";
 div.appendChild(but)
-[![N|Solid](Screenshot%20_1.png)
+[![N|Solid](Screenshot%20A.png)
 
 
 
