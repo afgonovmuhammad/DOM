@@ -183,3 +183,30 @@ document.getElementById("myDiv").appendChild(para)
 
 ***
 ***
+classList.remove(")
+****
+> HTML
+```
+<div id="myDiv"></div>
+```
+> JS
+```
+let para = document.createElement("p")
+let node = document.createTextNode("This is a paragraph.");
+para.classList.remove("p_para");
+para.appendChild(node);
+document.getElementById("myDiv").appendChild(para)
+```
+> CSS
+```
+.p_para{
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(170, 42, 42);
+}
+```
+> [![N|Solid](Screenshot%205.png)
+
+***
+***
+
