@@ -95,7 +95,7 @@ function validateForm() {
   <input type="text" name="fname" required>
   <input type="submit" value="Submit">
 </form>
-
+****
 ****
 ****
 [![N|Solid](document.png)
@@ -149,6 +149,30 @@ para.appendChild(node);
 document.getElementById("myDiv").appendChild(para)
 [![N|Solid](Screenshot%203.png)
 
-
-
+***
+***
+## classList()
+>ClassList як қабулкунанда аст. Объекти баргардонидани он дорои якчанд усул аст:
+classList.add(")
+> HTML
+```
+<div id="myDiv"></div>
+```
+> JS
+```
+let para = document.createElement("p")
+let node = document.createTextNode("This is a paragraph.");
+para.classList.add("p_para");
+para.appendChild(node);
+document.getElementById("myDiv").appendChild(para)
+```
+> CSS
+```
+.p_para{
+    font-size: 26px;
+    font-weight: 900;
+    color: rgb(170, 42, 42);
+}
+```
+> [![N|Solid](Screenshot%204.png)
 
