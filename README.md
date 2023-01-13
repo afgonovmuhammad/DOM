@@ -153,7 +153,9 @@ document.getElementById("myDiv").appendChild(para)
 ***
 ## classList()
 >ClassList як қабулкунанда аст. Объекти баргардонидани он дорои якчанд усул аст:
+***
 classList.add(")
+****
 > HTML
 ```
 <div id="myDiv"></div>
@@ -176,3 +178,5 @@ document.getElementById("myDiv").appendChild(para)
 ```
 > [![N|Solid](Screenshot%204.png)
 
+***
+***
