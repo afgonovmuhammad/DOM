@@ -141,7 +141,8 @@ addElements.appendChild(paragraph2)
         <h2> I am myDiv</h2>
 </div>
  ```
-> JS
+> JS 
+.
 let para = document.createElement("p")
 let node = document.createTextNode("This is a paragraph.");
 para.appendChild(node);
