@@ -248,4 +248,4 @@ innerHTMLАмвол барои гирифтан ё иваз кардани му�
 ***
 
 ## Errors
- [![N|Solid](./Screenshot%2017.png)
+[![N|Solid](./Screenshot%2017.png)
