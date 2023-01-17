@@ -157,7 +157,7 @@ document.getElementById("myDiv").appendChild(para)
 ## classList()
 >ClassList як қабулкунанда аст. Объекти баргардонидани он дорои якчанд усул аст:
 ***
-classList.add(")
+classList.add("")
 ****
 > HTML
 ```
@@ -183,7 +183,7 @@ document.getElementById("myDiv").appendChild(para)
 
 ***
 ***
-classList.remove(")
+classList.remove("")
 ****
 > HTML
 ```
@@ -209,4 +209,35 @@ document.getElementById("myDiv").appendChild(para)
 
 ***
 ***
+***
+## SetAtributte(
+  > Усули setAttribute() ба атрибут арзиши нав мегузорад.
+Агар атрибут мавҷуд набошад, он аввал сохта мешавад.
+)
+
+
+
+***
+***
+//////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\
+***
+***
+
+# JavaScript - Усулҳои HTML DOM
+ [![N|Solid](dom-nodes_17.webp)
+
+> HTML DOM-ро бо JavaScript (ва бо забонҳои дигари барномасозӣ) дастрас кардан мумкин аст.
+Дар DOM, ҳама унсурҳои HTML ҳамчун объектҳо муайян карда мешаванд .
+Интерфейси барномасозӣ хосиятҳо ва усулҳои ҳар як объект мебошад.
+Амвол ин арзишест, ки шумо метавонед ба даст оред ё муқаррар кунед (ба монанди тағир додани мундариҷаи элементи HTML).
+Усул амалест, ки шумо метавонед иҷро кунед (ба монанди илова ё нест кардани унсури HTML) .
+
+Example
+>Намунаи зерин мундариҷаи innerHTMLэлементро <p>бо тағир медиҳад id="demo":
+
+>HTML
+<p id="demo"></p>
+.
+JS:
+document.getElementById("demo").innerHTML = "Hello World!"; // Hello World!
 
