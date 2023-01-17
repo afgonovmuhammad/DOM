@@ -215,11 +215,6 @@ document.getElementById("myDiv").appendChild(para)
 Агар атрибут мавҷуд набошад, он аввал сохта мешавад.
 )
 
-
-
-***
-***
-//////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\
 ***
 ***
 
@@ -244,3 +239,10 @@ Example
 ```
 document.getElementById("demo").innerHTML = "Hello World!"; // Hello World!
 ```
+
+### The innerHTML Property (Амвол)
+>Роҳи осонтарини ба даст овардани мундариҷаи элемент ин истифодаи innerHTMLмоликият мебошад.
+innerHTMLАмвол барои гирифтан ё иваз кардани мундариҷаи унсурҳои HTML муфид аст .
+
+***
+***
