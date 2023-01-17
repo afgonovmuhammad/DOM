@@ -236,8 +236,11 @@ Example
 >Намунаи зерин мундариҷаи innerHTMLэлементро <p>бо тағир медиҳад id="demo":
 
 >HTML
+```
 <p id="demo"></p>
-.
-JS:
-document.getElementById("demo").innerHTML = "Hello World!"; // Hello World!
+```
 
+>JS:
+```
+document.getElementById("demo").innerHTML = "Hello World!"; // Hello World!
+```
